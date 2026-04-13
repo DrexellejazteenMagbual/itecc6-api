@@ -40,7 +40,6 @@ res.json({ data: students, count: students.length, message: 'Student created suc
 
 
 
-
 // Start server 
 app.listen(PORT, () => { 
 console.log(`Server running at http://localhost:${PORT}`) 
