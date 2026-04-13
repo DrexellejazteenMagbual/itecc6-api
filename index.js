@@ -31,6 +31,7 @@ app.post('/api/students', (req, res) => {
 const student = [
     { id: 3, name: 'Drexelle Magbual', course: 'BSINTE' }
 ]
+
 students.push(...student)
 
 res.json({ data: students, count: students.length, message: 'Student created successfully' }) 
